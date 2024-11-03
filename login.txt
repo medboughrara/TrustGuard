@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrustGuard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+            max-width: 1000px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .image-column {
+            flex: 1;
+            background-image: url('Leonardo_Phoenix_Design_a_logo_for_a_public_safety_project_wit_3.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .content-column {
+            flex: 1;
+            background-color: #ffffff;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .logo {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .authentication-box h2 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .auth-input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+            color: #888;
+        }
+
+        .auth-button {
+            background-color: #1f3b79;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        .auth-button:hover {
+            background-color: #162d5d;
+        }
+
+        .footer {
+            margin-top: auto;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #333;
+        }
+
+        .footer a {
+            color: #1f3b79;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Image Column -->
+    <div class="image-column"></div>
+
+    <!-- Content Column -->
+    <div class="content-column">
+
+        
+        <input type="text" class="auth-input" placeholder="Your ID number" readonly>
+        <input type="password" class="auth-input" placeholder="Password" readonly>
+        <a href="monitoring.html"><button class="auth-button">LOGIN</button></a>
+
+        <!-- Footer Contact Information -->
+        <div class="footer">
+            <p>Phone: 71 560 244 | Email: <a href="mailto:defnat@defense.tn">defnat@defense.tn</a></p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
